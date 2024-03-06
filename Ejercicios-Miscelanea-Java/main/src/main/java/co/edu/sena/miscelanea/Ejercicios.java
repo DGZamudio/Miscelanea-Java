@@ -119,4 +119,36 @@ public class Ejercicios
             return ("El año "+d1+" no es bisiesto");
         }
     }
+    public static int multiplos3(int i){
+        for(int d1=3 ; d1 < 100 ; d1 += 3){
+            System.out.println(d1);
+        }
+        return i;
+    }
+    public static int impares(int i){
+        for(int d1=1 ; d1 < 100 ; d1 += 2){
+            System.out.println(d1);
+        }
+        return i;
+    }
+    public static int pares(int i){
+        for(int d1=2 ; d1 < 100 ; d1 += 2){
+            System.out.println(d1);
+        }
+        return i;
+    }
+    public static int cuadrados(int d1){
+            int cuad = d1 * d1;
+            return cuad;
+    }
+    public static String smc(int i){
+        int sum = 0;
+        for(int d1=1 ; d1 < 101 ; d1++){
+            sum = sum+(d1 * d1);
+        }
+        return ("La suma de los cuadrados naturales es:" + sum);
+    }
+    public static int ingresados(int d1,int sum){
+            return sum = sum+d1;
+    }
 }
