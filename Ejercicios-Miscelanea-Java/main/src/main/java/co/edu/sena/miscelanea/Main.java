@@ -202,16 +202,22 @@ public class Main {
                     System.out.println("¡Bienvenido a los ciclos!" + "\n");
                     //Problema 1
                     System.out.println("Problema 1: Multiplos de 3");
-                    result = Ejercicios.multiplos3(i);
-                    System.out.println(result);
+                    for(Nm1=3 ; Nm1 < 100 ; Nm1 += 3){
+                        result = Ejercicios.multiplos3(Nm1);
+                        System.out.println(result);
+                    }
                     //Problema 2
                     System.out.println("Problema 2: impares");
-                    result = Ejercicios.impares(i);
-                    System.out.println(result);
+                    for(Nm1=1 ; Nm1 < 100 ; Nm1 += 2){
+                        result = Ejercicios.impares(Nm1);
+                        System.out.println(result);
+                    }
                     //Problema 3
                     System.out.println("Problema 3: pares");
-                    result = Ejercicios.pares(i);
-                    System.out.println(result);
+                    for(Nm1=2 ; Nm1 <= 100 ; Nm1 += 2){
+                        result = Ejercicios.pares(Nm1);
+                        System.out.println(result);
+                    }
                     //Problema 4
                     System.out.println("Problema 4: cuadrados");
                     for(Nm1=1 ; Nm1 <= 30 ; Nm1++){
@@ -223,11 +229,15 @@ public class Main {
                     result2 = Ejercicios.smc(i);
                     System.out.println(result2);
                     //Problema 6                    
-                    /*System.out.println("Problema 6: impares");
-                    for(int d1=1 ; d1 < 101 ; d1++){
-                        result = Ejercicios.impares(i);
-                        System.out.println(result);
-                    }*/
+                    System.out.println("Problema 6: ");
+                    System.out.println("Ingresa un numero");
+                    Nm1 = src.nextInt();
+                    System.out.println("Ingresa un numero mayor");
+                    Nm2 = src.nextInt();
+                    System.out.println("La secuencia es:");
+                    for( Nm1 = Nm1 ; Nm1 < Nm2 ; Nm1++){
+                        System.out.println(Nm1);
+                    }
                     //Problema 7
                     System.out.println("Problema 7: suma de numeros ingresados");
                     do{
